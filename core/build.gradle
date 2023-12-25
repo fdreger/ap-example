@@ -1,0 +1,8 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+  api "com.badlogicgames.gdx:gdx:$gdxVersion"
+  api "net.snowyhollows.bento:bento-core:1.6"
+  annotationProcessor "net.snowyhollows.bento:bento-generator:1.6"
+}
